@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Gato_1 = require("./Gato");
+const Perro_1 = require("./Perro");
+const Pez_1 = require("./Pez");
+const animals = [];
+const gato = new Gato_1.Gato("Tom", "2", "Felino", "grisF");
+const perro = new Perro_1.Perro("Firulais", "3", "Canino", "Cafe");
+const pez = new Pez_1.Pez("Nemo", "1", "Pez", "Naranja");
+animals.push(gato);
+animals.push(perro);
+animals.push(pez);
+console.log(animals);
